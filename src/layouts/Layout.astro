@@ -1,0 +1,140 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Portfolio professionnel de Data Scientist et Machine Learning Engineer" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="nav-menu">
+      <button class="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul>
+        <li><a href="#accueil" class="active">Accueil</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#experience">Expérience</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <slot />
+
+    <footer>
+      <p>&copy; 2024 Portfolio Data Science & ML. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const navLinks = document.querySelectorAll('.nav-menu a');
+        const sections = document.querySelectorAll('section');
+        const nav = document.querySelector('.nav-menu');
+        const hamburger = document.querySelector('.hamburger');
+        const body = document.body;
+
+        if (!nav || !(nav instanceof HTMLElement) || !hamburger) return;
+        
+        // Toggle mobile menu
+        hamburger.addEventListener('click', () => {
+          nav.classList.toggle('menu-open');
+          hamburger.classList.toggle('is-active');
+          body.classList.toggle('no-scroll');
+        });
+
+        // Close mobile menu when clicking a link
+        navLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            nav.classList.remove('menu-open');
+            hamburger.classList.remove('is-active');
+            body.classList.remove('no-scroll');
+          });
+        });
+
+        // Smooth scroll
+        navLinks.forEach(link => {
+          link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetId = link.getAttribute('href');
+            if (!targetId) return;
+            const targetSection = document.querySelector(targetId);
+            if (targetSection instanceof HTMLElement) {
+              targetSection.scrollIntoView({ behavior: 'smooth' });
+            }
+          });
+        });
+
+        // Active link on scroll
+        const observerOptions = {
+          root: null,
+          rootMargin: '-50% 0px',
+          threshold: 0
+        };
+
+        const observerCallback = (entries: IntersectionObserverEntry[]) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting && entry.target instanceof HTMLElement) {
+              const id = entry.target.id;
+              navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${id}`) {
+                  link.classList.add('active');
+                }
+              });
+            }
+          });
+        };
+
+        const observer = new IntersectionObserver(observerCallback, observerOptions);
+        sections.forEach(section => observer.observe(section));
+
+        // Hide/Show nav on scroll
+        let lastScroll = window.scrollY;
+        let scrollTimer: number | null = null;
+        
+        window.addEventListener('scroll', () => {
+          const currentScroll = window.scrollY;
+          
+          // Clear the previous timeout
+          if (scrollTimer !== null) {
+            clearTimeout(scrollTimer);
+          }
+          
+          // Only hide/show nav if we're not in mobile menu mode
+          if (!nav.classList.contains('menu-open')) {
+            if (currentScroll > lastScroll && currentScroll > 100) {
+              nav.style.transform = 'translateY(-100%)';
+            } else {
+              nav.style.transform = 'translateY(0)';
+            }
+          }
+          
+          lastScroll = currentScroll;
+          
+          // Set a timeout to show the nav after scrolling stops
+          scrollTimer = setTimeout(() => {
+            nav.style.transform = 'translateY(0)';
+          }, 150) as unknown as number;
+        });
+      });
+    </script>
+  </body>
+</html>
+
+<style is:global>
+  @import '../styles/global.css';
+</style>

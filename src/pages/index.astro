@@ -1,0 +1,333 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Portfolio Data Scientist / ML Engineer">
+  <main>
+    <section id="accueil" class="hero">
+      <div class="hero-content">
+        <div class="profile-picture">
+          <img src="src/assets/profile_picture.jpg" alt="Profile Picture" class="rounded-full w-48 h-48 object-cover border-4 border-white shadow-lg mb-8" />
+        </div>
+        <h1>Data Scientist & ML Engineer</h1>
+        <p class="subtitle">Architecture de solutions data et déploiement de modèles ML en production</p>
+      </div>
+    </section>
+
+    <section id="projets" class="section">
+      <h2>Projets Data Science & ML</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-content">
+            <h3>SAFEWORLD - Vision par ordinateur en temps réel</h3>
+            <p>Lead technique sur le développement d'un produit ML complet pour la détection d'objets et la segmentation sémantique en temps réel à la périphérie. Architecture de solution data avec DynamoDB et inférence à la périphérie dans une architecture hexagonale.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">DINOV2</span>
+              <span class="tech-tag">RT-DETR</span>
+              <span class="tech-tag">FASTER-RCNN</span>
+              <span class="tech-tag">Edge Computing</span>
+            </div>
+            <!--
+            <div class="project-links">
+              <a href="#" class="button"><i class="fas fa-file-alt"></i> Documentation</a>
+            </div>
+            -->
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-content">
+            <h3>DEGAS - Détection de changements en streaming</h3>
+            <p>Point focal produit sur le périmètre data. Architecture de solution avec Azure Functions durables, ingestion incrémentale et TimescaleDB. Création d'un modèle de correction de points de changement en streaming avec techniques avancées.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">Azure ML</span>
+              <span class="tech-tag">Autoencoder</span>
+              <span class="tech-tag">Seasonal Decomposition</span>
+              <span class="tech-tag">Exponential Smoothing</span>
+            </div>
+            <!--
+            <div class="project-links">
+              <a href="#" class="button"><i class="fas fa-file-code"></i> Architecture</a>
+            </div>
+            -->
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-content">
+            <h3>RADAR - Détection d'anomalies sur séries temporelles</h3>
+            <p>Point focal produit sur le périmètre data pour le cycle 2. Architecture de solution utilisant Databricks pour l'inférence par lots, Azure Data Factory et base de données PostgreSQL. Création d'un modèle de détection d'anomalies sur séries temporelles.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">Databricks</span>
+              <span class="tech-tag">Bayesian OCPD</span>
+              <span class="tech-tag">Kats</span>
+              <span class="tech-tag">Azure Data Factory</span>
+            </div>
+            <!--
+            <div class="project-links">
+              <a href="#" class="button"><i class="fas fa-chart-line"></i> Méthodologie</a>
+            </div>
+            -->
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-content">
+            <h3>MLOps & Cycle de vie des modèles</h3>
+            <p>Mise en place de pipelines d'entraînement versionnés et déployés en continu sur AWS Sagemaker et Azure ML. Intégration de multiples frameworks (TensorFlow, PyTorch) et optimisation avec ONNX pour le déploiement en production.</p>
+            <div class="tech-stack">
+              <span class="tech-tag">AWS Sagemaker</span>
+              <span class="tech-tag">Azure ML</span>
+              <span class="tech-tag">MLOps</span>
+              <span class="tech-tag">CI/CD</span>
+            </div>
+            <!--
+              <div class="project-links">
+                <a href="#" class="button"><i class="fas fa-cogs"></i> Pipeline</a>
+              </div>
+            -->
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="competences" class="section">
+      <h2>Compétences Techniques</h2>
+      <div class="skills-container">
+        <div class="skill-category">
+          <h3>Langages & Frameworks</h3>
+          <ul>
+            <li>Python (NumPy, Pandas, Scikit-learn)</li>
+            <li>TypeScript / JavaScript</li>
+            <li>SQL & NoSQL (DynamoDB, PostgreSQL)</li>
+            <li>Terraform, Infrastructure as Code</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Machine Learning & Deep Learning</h3>
+          <ul>
+            <li>TensorFlow & PyTorch</li>
+            <li>ONNX (optimisation de modèles)</li>
+            <li>Computer Vision (FASTER-RCNN, RT-DETR, DINOV2)</li>
+            <li>Time Series Analysis (Sktime, Kats)</li>
+            <li>Anomaly Detection & Change Point Detection</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Cloud & Architecture</h3>
+          <ul>
+            <li>AWS (Sagemaker, Lambda, DynamoDB)</li>
+            <li>Azure (Functions, ML, Data Factory, Databricks)</li>
+            <li>Architecture Hexagonale & Serverless</li>
+            <li>Batch & Streaming Inference</li>
+            <li>Edge Computing & Optimisation</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Leadership & Gestion</h3>
+          <ul>
+            <li>Leadership technique & Product Focal Point</li>
+            <li>Gestion de projet & Product Scoping</li>
+            <li>Mentorat & Supervision d'équipe</li>
+            <li>Entretiens techniques & Recrutement</li>
+            <li>Organisation de séminaires (25-300 pers.)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Explorations Data & Analyses</h2>
+      <div class="publications-container">
+        <div class="publication-item">
+          <h3>Analyse des causes racines d'événements</h3>
+          <p class="publication-venue">DataStudio - Exploration Data</p>
+          <p>Conduite d'analyses pour identifier les causes racines d'événements en utilisant des techniques avancées comme la corrélation de Pearson, les transformations polynomiales et la classification multivariée supervisée.</p>
+          <!--
+            <a href="#" class="publication-link">Méthodologie d'analyse</a>
+          -->
+        </div>
+        
+        <div class="publication-item">
+          <h3>Optimisation des émissions de CO2</h3>
+          <p class="publication-venue">DataStudio - Exploration Data</p>
+          <p>Développement d'une application Streamlit pour l'analyse exploratoire des données et l'optimisation des émissions de CO2, permettant d'identifier les leviers d'action les plus efficaces.</p>
+          <!--
+            <a href="#" class="publication-link">Approche d'optimisation</a>
+          -->
+        </div>
+        
+        <div class="publication-item">
+          <h3>Problème de tournées avec fenêtres temporelles</h3>
+          <p class="publication-venue">DataStudio - Exploration Data</p>
+          <p>Résolution d'un problème de tournées de véhicules avec fenêtres temporelles (Time Window VRP) pour l'optimisation des livraisons, en utilisant OR-Tools pour la modélisation et la résolution.</p>
+          <!--
+            <a href="#" class="publication-link">Solution algorithmique</a>
+          -->
+        </div>
+        
+        <div class="publication-item">
+          <h3>Clustering de courbes de charge</h3>
+          <p class="publication-venue">DataStudio - Exploration Data</p>
+          <p>Application de techniques de clustering pour identifier des profils types dans les courbes de charge, permettant une meilleure compréhension des comportements de consommation et l'optimisation des ressources.</p>
+          <!--
+            <a href="#" class="publication-link">Résultats de l'analyse</a>
+          -->
+        </div>
+        
+        <div class="publication-item">
+          <h3>Community of Practice Data</h3>
+          <p class="publication-venue">TDF - Organisation</p>
+          <p>Mise en place d'une communauté de pratique Data au sein de TDF, incluant le recrutement, l'organisation de l'équipe Data et la définition des processus et méthodologies.</p>
+          <!--
+            <a href="#" class="publication-link">Structure organisationnelle</a>
+          -->
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <h2>Publications Medium</h2>
+      <div class="medium-container">
+        <div class="medium-item">
+          <h3>Migrate your Poetry project to UV</h3>
+          <p class="medium-description">In this article, we will help you to migrate your project based on poetry to uv. It is quite simple because both dependency managers are…</p>
+          <div class="medium-tags">
+            <span class="medium-tag">Python</span>
+            <span class="medium-tag">Tutorial</span>
+            <span class="medium-tag">Productivity</span>
+          </div>
+          <a href="https://medium.com/totalenergies-digital-factory/migrate-your-poetry-project-to-uv-b2c829b70cd9" target="_blank" class="medium-link">
+            <i class="fab fa-medium"></i> Lire sur Medium
+          </a>
+        </div>
+
+        <div class="medium-item">
+          <h3>ZoeDepth: 3D Visualization of Depth Estimation</h3>
+          <p class="medium-description">Exploration des techniques de visualisation 3D pour l'estimation de profondeur avec ZoeDepth, un modèle état de l'art pour la perception de profondeur monoculaire.</p>
+          <div class="medium-tags">
+            <span class="medium-tag">Computer Vision</span>
+            <span class="medium-tag">3D</span>
+            <span class="medium-tag">Depth Estimation</span>
+          </div>
+          <a href="https://medium.com/totalenergies-digital-factory/zoedepth-3d-visualization-of-depth-estimation-98102279c872" target="_blank" class="medium-link">
+            <i class="fab fa-medium"></i> Lire sur Medium
+          </a>
+        </div>
+
+        <div class="medium-item">
+          <h3>Open AI: Multi images prompting, python API</h3>
+          <p class="medium-description">Guide pratique pour l'utilisation de l'API Python d'OpenAI avec des prompts multi-images, permettant de combiner vision et langage dans les applications d'IA.</p>
+          <div class="medium-tags">
+            <span class="medium-tag">OpenAI</span>
+            <span class="medium-tag">API</span>
+            <span class="medium-tag">Multi-modal</span>
+          </div>
+          <a href="https://medium.com/totalenergies-digital-factory/open-ai-multi-images-prompting-python-api-6148dcd9dcc5" target="_blank" class="medium-link">
+            <i class="fab fa-medium"></i> Lire sur Medium
+          </a>
+        </div>
+
+        <div class="medium-item">
+          <h3>Cultural Mindset: A Thought About Collective Ownership</h3>
+          <p class="medium-description">Réflexion sur l'importance de la propriété collective dans les équipes techniques et comment elle favorise l'innovation et la qualité des produits.</p>
+          <div class="medium-tags">
+            <span class="medium-tag">Culture</span>
+            <span class="medium-tag">Leadership</span>
+            <span class="medium-tag">Team Building</span>
+          </div>
+          <a href="https://medium.com/totalenergies-digital-factory/cultural-mindset-a-thought-about-collective-ownership-96f41689de07" target="_blank" class="medium-link">
+            <i class="fab fa-medium"></i> Lire sur Medium
+          </a>
+        </div>
+
+        <div class="medium-item">
+          <h3>Sktime — TimeSeriesForestClassifier Improving features comprehension</h3>
+          <p class="medium-description">Analyse approfondie du TimeSeriesForestClassifier de Sktime et méthodes pour améliorer la compréhension des caractéristiques extraites des séries temporelles.</p>
+          <div class="medium-tags">
+            <span class="medium-tag">Time Series</span>
+            <span class="medium-tag">Sktime</span>
+            <span class="medium-tag">Classification</span>
+          </div>
+          <a href="https://medium.com/totalenergies-digital-factory/sktime-timeseriesforestclassifier-improving-features-comprehension-f7ecd9ae39c6" target="_blank" class="medium-link">
+            <i class="fab fa-medium"></i> Lire sur Medium
+          </a>
+        </div>
+
+        <div class="medium-item">
+          <h3>Sktime — Feature Importance on TimeSeriesForestClassifier</h3>
+          <p class="medium-description">Techniques pour calculer et interpréter l'importance des caractéristiques dans les modèles TimeSeriesForestClassifier, améliorant l'explicabilité des prédictions.</p>
+          <div class="medium-tags">
+            <span class="medium-tag">Feature Importance</span>
+            <span class="medium-tag">Explainable AI</span>
+            <span class="medium-tag">Time Series</span>
+          </div>
+          <a href="https://medium.com/totalenergies-digital-factory/sktime-feature-importance-on-timeseriesforestclassifier-7cbf3d44e939" target="_blank" class="medium-link">
+            <i class="fab fa-medium"></i> Lire sur Medium
+          </a>
+        </div>
+
+        <div class="medium-item">
+          <h3>Create your own "Google" with Sphinx</h3>
+          <p class="medium-description">Guide pratique pour créer un moteur de recherche personnalisé avec Sphinx, permettant d'indexer et de rechercher efficacement dans de grandes quantités de données.</p>
+          <div class="medium-tags">
+            <span class="medium-tag">Search Engine</span>
+            <span class="medium-tag">Sphinx</span>
+            <span class="medium-tag">Information Retrieval</span>
+          </div>
+          <a href="https://medium.com/@yann-hal/create-your-own-google-with-sphinx-fe4619c505b1" target="_blank" class="medium-link">
+            <i class="fab fa-medium"></i> Lire sur Medium
+          </a>
+        </div>
+
+        <div class="medium-item">
+          <h3>Time Series: The problem with resampling</h3>
+          <p class="medium-description">Analyse des défis et pièges liés au rééchantillonnage des séries temporelles, avec des solutions pratiques pour éviter les erreurs courantes dans l'analyse de données temporelles.</p>
+          <div class="medium-tags">
+            <span class="medium-tag">Time Series</span>
+            <span class="medium-tag">Resampling</span>
+            <span class="medium-tag">Data Preprocessing</span>
+          </div>
+          <a href="https://medium.com/totalenergies-digital-factory/time-series-the-problem-with-resampling-7baea5a3873c" target="_blank" class="medium-link">
+            <i class="fab fa-medium"></i> Lire sur Medium
+          </a>
+        </div>
+
+        <div class="medium-item">
+          <h3>End-to-End Anomalies Detection Models Evaluation Algorithms</h3>
+          <p class="medium-description">Méthodologie complète pour l'évaluation de bout en bout des algorithmes de détection d'anomalies, avec comparaison des performances et recommandations pratiques.</p>
+          <div class="medium-tags">
+            <span class="medium-tag">Anomaly Detection</span>
+            <span class="medium-tag">Evaluation</span>
+            <span class="medium-tag">Algorithms</span>
+          </div>
+          <a href="https://medium.com/totalenergies-digital-factory/end-to-end-anomalies-detection-models-evaluation-algorithms-d3e9e0c5d631" target="_blank" class="medium-link">
+            <i class="fab fa-medium"></i> Lire sur Medium
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="contact-container">
+        <p class="contact-intro">Intéressé par la collaboration sur des projets d'architecture de solutions data, de ML en production ou d'analyse de séries temporelles ? N'hésitez pas à me contacter.</p>
+        <div class="social-links">
+          <a href="https://linkedin.com/in/votre-profile" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://medium.com/@yann-hal" target="_blank" rel="noopener noreferrer" title="Medium">
+            <i class="fab fa-medium"></i>
+          </a>
+          <a href="mailto:votre@email.com" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  @import '../styles/global.css';
+</style>
