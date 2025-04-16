@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import ProfilPicture from "../assets/profile_picture.jpg"
 ---
 
 <Layout title="Portfolio Data Scientist / ML Engineer">
@@ -7,7 +8,7 @@ import Layout from '../layouts/Layout.astro';
     <section id="accueil" class="hero">
       <div class="hero-content">
         <div class="profile-picture">
-          <img src="src/assets/profile_picture.jpg" alt="Profile Picture" class="rounded-full w-48 h-48 object-cover border-4 border-white shadow-lg mb-8" />
+          <img src={ProfilPicture.src} alt="Profile Picture" class="rounded-full w-48 h-48 object-cover border-4 border-white shadow-lg mb-8" />
         </div>
         <h1>Data Scientist & ML Engineer</h1>
         <p class="subtitle">Architecture de solutions data et déploiement de modèles ML en production</p>
