@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber sample"] 1758992078.99914 "sample.bcf" "sample.bbl" "sample" 1758998581.62967 0
-  "sample.bcf" 1758998581.4982 108550 7d60d219a5bf7ab89861eb5ddc76339a "pdflatex"
+["biber sample"] 1758992078.99914 "sample.bcf" "sample.bbl" "sample" 1758998725.93946 0
+  "sample.bcf" 1758998725.81241 108550 7d60d219a5bf7ab89861eb5ddc76339a "pdflatex"
   "sample.bib" 1758992080.03634 2010 7e8144a224342ef22991605ebe91d62a ""
   (generated)
   "sample.bbl"
   "sample.blg"
   (rewritten before read)
-["pdflatex"] 1758998580.18695 "/Users/yann.hallouard/PycharmProjects/personal/portfolio/cv/sample.tex" "sample.pdf" "sample" 1758998581.6299 0
-  "/Users/yann.hallouard/PycharmProjects/personal/portfolio/cv/sample.tex" 1758998579.9763 12258 0b5bbebf3c826a010634e022c1e44f8b ""
+["pdflatex"] 1758998724.63355 "/Users/yann.hallouard/PycharmProjects/personal/portfolio/cv/sample.tex" "sample.pdf" "sample" 1758998725.93974 0
+  "/Users/yann.hallouard/PycharmProjects/personal/portfolio/cv/sample.tex" 1758998724.36604 12259 3b4cde24e520edb6f222bb24c971f6c8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1622837620 3083 a707712f77b073b3833e4b1334a30e99 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -261,14 +261,14 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1758985850 3345739 e0c6640d1785894eb8c4c91c3c1f9f25 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "altacv.cls" 1758986236.18752 17713 2766496d895be383a78bb8c4388bb69f ""
-  "pdfa.xmpi" 1758998580.6346 5042 d27b52683d84235be605a3c8a892ea8c "pdflatex"
+  "pdfa.xmpi" 1758998725.0159 5042 bb90850a5d67b8d3b074a805ee08f103 "pdflatex"
   "profile_picture.jpg" 1758993897.36514 628936 63597c9a074f698d6d8ddfcbb1f1da0a ""
   "pubs-num.tex" 1758986297.93521 430 c0bbeafd1d4c738c415f863f7e62a637 ""
-  "sample.aux" 1758998581.49054 1951 95037220c27bfb01fc5265988c136911 "pdflatex"
+  "sample.aux" 1758998725.80327 1951 95037220c27bfb01fc5265988c136911 "pdflatex"
   "sample.bbl" 1758992079.98947 11173 c83f836a2bf205adb41dd4f6710c6070 "biber sample"
-  "sample.out" 1758998581.22232 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "sample.run.xml" 1758998581.50004 2412 622736c3f6a5f2ba08a2ebb2067546cc "pdflatex"
-  "sample.tex" 1758998579.9763 12258 0b5bbebf3c826a010634e022c1e44f8b ""
+  "sample.out" 1758998725.53489 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "sample.run.xml" 1758998725.81645 2412 622736c3f6a5f2ba08a2ebb2067546cc "pdflatex"
+  "sample.tex" 1758998724.36604 12259 3b4cde24e520edb6f222bb24c971f6c8 ""
   (generated)
   "pdfa.xmpi"
   "sample.aux"
