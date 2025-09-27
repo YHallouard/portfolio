@@ -1,0 +1,268 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global/global}
+    \entry{hallouard:poetry:2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ee9820edde4a034f84f35af27603ebe2}{%
+           family={Hallouard},
+           familyi={H\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{bibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorbibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authornamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{TotalEnergies Digital Factory - Medium}
+      \field{note}{1.6K views}
+      \field{title}{Migrate your Poetry project to UV}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{hallouard:ownership:2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ee9820edde4a034f84f35af27603ebe2}{%
+           family={Hallouard},
+           familyi={H\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{bibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorbibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authornamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{TotalEnergies Digital Factory - Medium}
+      \field{note}{0.5K views}
+      \field{title}{Cultural Mindset: A Thought About Collective Ownership}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{hallouard:openai:2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ee9820edde4a034f84f35af27603ebe2}{%
+           family={Hallouard},
+           familyi={H\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{bibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorbibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authornamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{TotalEnergies Digital Factory - Medium}
+      \field{note}{1.2K views}
+      \field{title}{Open AI: Multi images prompting, python API}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{hallouard:zoedepth:2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ee9820edde4a034f84f35af27603ebe2}{%
+           family={Hallouard},
+           familyi={H\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{bibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorbibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authornamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{TotalEnergies Digital Factory - Medium}
+      \field{note}{1.K views}
+      \field{title}{ZoeDepth: 3D Visualization of Depth Estimation}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{hallouard:sktime:comprehension:2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ee9820edde4a034f84f35af27603ebe2}{%
+           family={Hallouard},
+           familyi={H\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{bibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorbibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authornamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{TotalEnergies Digital Factory - Medium}
+      \field{note}{1.1K views}
+      \field{title}{Sktime — TimeSeriesForestClassifier Improving features comprehension}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{hallouard:sktime:importance:2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ee9820edde4a034f84f35af27603ebe2}{%
+           family={Hallouard},
+           familyi={H\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{bibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorbibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authornamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \field{extraname}{6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{TotalEnergies Digital Factory - Medium}
+      \field{note}{4.5K views}
+      \field{title}{Sktime — Feature Importance on TimeSeriesForestClassifier}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{hallouard:sphinx:2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ee9820edde4a034f84f35af27603ebe2}{%
+           family={Hallouard},
+           familyi={H\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{bibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorbibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authornamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \field{extraname}{7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medium}
+      \field{note}{0.4K views}
+      \field{title}{Create your own "Google" with Sphinx}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{hallouard:anomaly:evaluation:2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ee9820edde4a034f84f35af27603ebe2}{%
+           family={Hallouard},
+           familyi={H\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{bibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorbibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authornamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \field{extraname}{8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{TotalEnergies Digital Factory - Medium}
+      \field{note}{1.1K views}
+      \field{title}{End-to-End Anomalies Detection Models Evaluation Algorithms}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{hallouard:timeseries:resampling:2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ee9820edde4a034f84f35af27603ebe2}{%
+           family={Hallouard},
+           familyi={H\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{fullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{bibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorbibnamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authornamehash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhash}{ee9820edde4a034f84f35af27603ebe2}
+      \strng{authorfullhashraw}{ee9820edde4a034f84f35af27603ebe2}
+      \field{extraname}{9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{TotalEnergies Digital Factory - Medium}
+      \field{note}{4.3K views}
+      \field{title}{Time Series: The problem with resampling}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

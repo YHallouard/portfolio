@@ -1,0 +1,6 @@
+# Speed up latexmk-xelatex compilation re pdfx
+$hash_calc_ignore_pattern{'timestamp'} = '^';
+
+# Set full paths to LaTeX binaries for VS Code compatibility
+$pdflatex = '/Library/TeX/texbin/pdflatex';
+$biber = '/Library/TeX/texbin/biber';
